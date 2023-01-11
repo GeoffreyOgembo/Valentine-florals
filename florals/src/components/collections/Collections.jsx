@@ -5,7 +5,7 @@ const Collections = () => {
   return (
     <div className="container mt-5">
 <h4 className='fw-bold'>Our Latest Collections</h4>
-      <div className="row">
+      <div className="row" style={{marginLeft:'30px'}}>
         {data.map((item) => {
           return (
             <div className="col-md-3 mx-2 mb-3 offset-md-3">
